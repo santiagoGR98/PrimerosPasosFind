@@ -1,0 +1,39 @@
+Practica 2 GBD
+
+Utilizar método find para ello vamos a la documentación
+de MongoDB.
+Para las dudas del proyecto utilizar el foro "Sobre la asignatura"
+
+https://docs.mongodb.com/manual/
+https://docs.mongodb.com/manual/tutorial/query-documents/
+
+github.com/bdpdv2021
+https://github.com/luciiaarm?tab=repositories
+
+1. Hcer un fichero para insert y otro para find
+	Ej : Find001.js y Insert001.js
+
+db.col002.insertOne({
+"":"",
+"":"",
+"":""
+})
+
+Nos ponemos en el shell nos colocamos donde tenemos los archivos
+para ello nombramos "mongo" , habiendo guardado previamente
+
+1."use g2bd002" Para crear una base de datos
+2."db" para mirar la base de datos en la que estamos
+3. "load("inser001.js")" para meter el documento en la bd
+4."Show collections" para ver colecciones
+5."db.amigos.find()"Encuentra los documentos de la coleccion amigos
+
+INSERT --> Inserta documentos en la coleccionn de la base de 
+		datos en uso .
+FIND --> Encuentra y muestra los documentos de la base de datos 
+		y colección en uso
+		ej: db.amigos.find().pretty()
+			db.amigos.find({"edad": 22}).pretty() = presentara aquellos 
+			archivos que presenten la string "edad": 22
+		PODEMOS HACER LOS MISMO CON EL OPERADOR EQUAL
+			db.amigos.find({"edad": { $eq: 22 } }).pretty()
