@@ -1,87 +1,87 @@
 db.coches.insertOne({
     "marca":"Mercedes",
     "año":"2000",
-    "caballos":"140"
-    })
+    "caballos":140
+    });
     db.coches.insertOne({
         "marca":"Mercedes",
         "año":"1990",
-        "caballos":"90"
-        })
+        "caballos":90
+        });
         db.coches.insertOne({
             "marca":"Mercedes",
             "año":"2010",
-            "caballos":"30"
-            })
+            "caballos":30
+            });
             db.coches.insertOne({
                 "marca":"Seat",
                 "año":"2000",
-                "caballos":"75"
-                })
+                "caballos":75
+                });
                 db.coches.insertOne({
                     "marca":"Renault",
                     "año":"2000",
-                    "caballos":"140"
-                    })
+                    "caballos":140
+                    });
                     db.coches.insertOne({
                         "marca":"Ford",
                         "año":"2020",
-                        "caballos":"190"
-                        })
+                        "caballos":190
+                        });
                         db.coches.insertOne({
                             "marca":"BMW",
                             "año":"1980",
-                            "caballos":"140"
-                            })
+                            "caballos":140
+                            });
                             db.coches.insertOne({
                                 "marca":"Chevrolet",
                                 "año":"2001",
-                                "caballos":"150"
-                                })
+                                "caballos":150
+                                });
                                 db.coches.insertOne({
                                     "marca":"Lancia",
                                     "año":"2010",
-                                    "caballos":"50"
-                                    })
+                                    "caballos":50
+                                    });
                                     db.coches.insertOne({
                                         "marca":"Mercedes",
                                         "año":"2020",
-                                        "caballos":"185"
-                                        })
+                                        "caballos":185
+                                        });
                                         db.coches.insertOne({
                                             "marca":"Seat",
                                             "año":"2000",
-                                            "caballos":"40"
-                                            })
+                                            "caballos":40
+                                            });
                                             db.coches.insertOne({
                                                 "marca":"Ford",
                                                 "año":"2000",
-                                                "caballos":"60"
-                                                })
+                                                "caballos":60
+                                                });
                                                 db.coches.insertOne({
                                                     "marca":"Fiat",
                                                     "año":"2000",
-                                                    "caballos":"70"
-                                                    })
+                                                    "caballos":70
+                                                    });
                                                     db.coches.insertOne({
                                                         "marca":"renault",
                                                         "año":"2000",
-                                                        "caballos":"140"
-                                                        })
+                                                        "caballos":140
+                                                        });
                                                         db.coches.insertOne({
                                                             "marca":"seat",
                                                             "año":"2010",
-                                                            "caballos":"240"
-                                                            })
+                                                            "caballos":240
+                                                            });
                                                             db.coches.insertOne({
                                                                 "marca":"Mercedes",
                                                                 "año":"2010",
-                                                                "caballos":"90"
-                                                                })
+                                                                "caballos":90
+                                                                });
                                                                 db.coches.insertOne({
                                                                     "marca":"Mercedes",
                                                                     "año":"2000",
-                                                                    "caballos":"110"
+                                                                    "caballos":110
                                                                     })
                                                                     db.coches.insertOne({
                                                                         "marca":"Dacia",
